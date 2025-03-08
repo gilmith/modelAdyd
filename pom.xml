@@ -1,22 +1,29 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>org.jacobo.adyd</groupId>
-  <artifactId>modelAdyd</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>modelAdyd</name>
-  <distributionManagement>
-  <repository>
-    <id>github</id>
-    <url>https://maven.pkg.github.com/gilmith/modelAdyd</url>
-  </repository>
-</distributionManagement>
-  <dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.jacobo.adyd</groupId>
+	<artifactId>modeladyd</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>modelAdyd</name>
+	<properties>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+		<maven.compiler.release>21</maven.compiler.release>
+	</properties>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/gilmith/modelAdyd</url>
+		</repository>
+	</distributionManagement>
+	<dependencies>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.36</version>			
+			<version>1.18.36</version>
 		</dependency>
 	</dependencies>
-  <build>
-  </build>
+	<build>
+	</build>
 </project>
