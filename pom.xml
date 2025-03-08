@@ -3,7 +3,13 @@
   <groupId>org.jacobo.adyd</groupId>
   <artifactId>modelAdyd</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>fichaAdyd</name>
+  <name>modelAdyd</name>
+  <distributionManagement>
+  <repository>
+    <id>github</id>
+    <url>https://maven.pkg.github.com/gilmith/modelAdyd</url>
+  </repository>
+</distributionManagement>
   <dependencies>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
