@@ -1,11 +1,38 @@
 package org.jacobo.adyd.ficha.model;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
-public record DataSheet(String id, String name, String playerName, String playerEmail,  Race raza, String alignment,
-		Clase clase, Integer level, Integer gac0, Integer hitPoints, String gender, 
-		Integer ac, List<String> languages, Proficiencies proficiencies, List<Equipment> equipment,
-		Habilities habilities, LocalDateTime creationDate, LocalDateTime modificationDate) {
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.google.cloud.Timestamp;
+
+import lombok.*;
+
+@EqualsAndHashCode(callSuper = true)
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Data
+public class DataSheet extends FireBaseClass {
+	
+	private String name;
+	private String playerName;
+	private String playerEmail;
+	private Race raza;
+	private String alignment;
+	private Clase clase; 
+	private Integer level; 
+	private Integer gac0; 
+	private Integer hitPoints; 
+	private String gender; 
+	private Integer ac;
+	private List<String> languages;
+	private Proficiencies proficiencies;
+	@JsonIgnore
+	private List<Equipment> equipment;
+	private Habilities habilities;
+	@JsonIgnore
+	private Timestamp creationDate;
+	@JsonIgnore
+	private Timestamp modificationDate;
 
 }
