@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.cloud.Timestamp;
 
 import lombok.*;
-import org.jacobo.adyd.ficha.model.common.Proficiencies;
+import org.jacobo.adyd.ficha.model.common.*;
 
 @EqualsAndHashCode(callSuper = true)
 @AllArgsConstructor
@@ -20,7 +20,7 @@ public class DataSheet extends FireBaseClass {
 	private String playerEmail;
 	private Race raza;
 	private String alignment;
-	private Clase clase; 
+	private Clase clase;
 	private Integer level; 
 	private Integer gac0; 
 	private Integer hitPoints; 

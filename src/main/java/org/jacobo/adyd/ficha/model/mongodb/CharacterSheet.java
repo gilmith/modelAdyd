@@ -1,8 +1,7 @@
 package org.jacobo.adyd.ficha.model.mongodb;
 
 import lombok.*;
-import org.jacobo.adyd.ficha.model.common.Proficiencies;
-import org.jacobo.adyd.ficha.model.firebase.*;
+import org.jacobo.adyd.ficha.model.common.*;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 

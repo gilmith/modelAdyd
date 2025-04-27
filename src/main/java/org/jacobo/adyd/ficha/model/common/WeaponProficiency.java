@@ -1,5 +1,5 @@
 package org.jacobo.adyd.ficha.model.common;
 
-public record WeaponProficiency(String arma, Integer nivel, Integer bonusDano, Integer bonusGac0) {
+public record WeaponProficiency(String weapon, Integer level, Integer damageDice, Integer damageBonus, Integer gac0Bonus) {
 
 }

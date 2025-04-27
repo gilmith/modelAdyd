@@ -1,4 +1,4 @@
-package org.jacobo.adyd.ficha.model.firebase;
+package org.jacobo.adyd.ficha.model.common;
 
 import lombok.Getter;
 

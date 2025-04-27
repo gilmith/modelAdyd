@@ -1,4 +1,4 @@
-package org.jacobo.adyd.ficha.model.mongodb;
+package org.jacobo.adyd.ficha.model.common;
 
 public enum Gender {
 
