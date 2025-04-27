@@ -1,4 +1,4 @@
-package org.jacobo.adyd.ficha.model;
+package org.jacobo.adyd.ficha.model.firebase;
 
 import java.util.List;
 
@@ -6,6 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.cloud.Timestamp;
 
 import lombok.*;
+import org.jacobo.adyd.ficha.model.common.Proficiencies;
 
 @EqualsAndHashCode(callSuper = true)
 @AllArgsConstructor

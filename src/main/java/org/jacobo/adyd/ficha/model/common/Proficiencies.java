@@ -1,4 +1,4 @@
-package org.jacobo.adyd.ficha.model;
+package org.jacobo.adyd.ficha.model.common;
 
 import java.util.List;
 

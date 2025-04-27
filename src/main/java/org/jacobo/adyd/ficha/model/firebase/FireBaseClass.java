@@ -1,4 +1,4 @@
-package org.jacobo.adyd.ficha.model;
+package org.jacobo.adyd.ficha.model.firebase;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
